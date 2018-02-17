@@ -1,0 +1,26 @@
+/*
+Theme Name: WP Bootstrap
+Theme URI: http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial
+Description: A demo theme built to accompany the Treehouse blog post <a href="http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial">How to Build a WordPress Theme with Bootstrap</a>.
+Author: Zac Gordon
+Author URI: http://teamtreehouse.com/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+/*<!-- Bootstrap core CSS -->*/
+@import url('vendor/bootstrap/css/bootstrap.min.css');
+
+/*    <!-- Custom fonts for this template -->*/
+@import url('vendor/font-awesome/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
+
+ /*   <!-- Plugin CSS -->*/
+@import url('vendor/magnific-popup/magnific-popup.css');
+  /*  <!-- Custom styles for this template -->*/
+@import url('css/freelancer.min.css');
