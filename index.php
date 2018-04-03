@@ -35,7 +35,7 @@
               <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri();?>/img/portfolio/cabin.png" alt="">
           </a>
           <div>
-            <a href="<?php the_permalink();?>"><?php the_title();?></a>
+            <a href="<?php echo the_permalink();?>"><?php echo the_title();?></a>
           </div>
         </div>
         <?php 
@@ -120,21 +120,21 @@
       </div>
     </div>
   </section>
-    <!-- Bootstrap core JavaScript -->
+    <!-- Bootstrap core JavaScript
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Plugin JavaScript -->
+    <!-- Plugin JavaScript 
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
+    <!-- Contact Form JavaScript 
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
-    <!-- Custom scripts for this template -->
+    <!-- Custom scripts for this template
     <script src="js/freelancer.min.js"></script>
-
+        -->
  
   <?php get_footer(); ?>
 
