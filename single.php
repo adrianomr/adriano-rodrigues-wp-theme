@@ -8,9 +8,14 @@
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
                 <div class="col-12 col-md-9 col-lg-9 my-5">
-                    <img src="img/portfolio/game.png" alt="" class="img-fluid">
+                <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
+                <?php if ( has_post_thumbnail()) : ?>
+                <?php the_post_thumbnail('post-thumbnails', array('class' => 'img-fluid')); ?>
+                </a>
+                <?php endif; ?>
+                    <!--<img src="<?php echo get_stylesheet_directory_uri();?>/img/portfolio/game.png" alt="" class="img-fluid">-->
                     <h2><?php echo the_title();?></h2>
-                    <p class="lead">Fecha</p>
+                    <p class="lead"><?php echo get_the_date();?></p>
                     <div class="text-justify">
                         <?php the_content(); ?>
 
@@ -22,22 +27,9 @@
 
                 <!--Right Bar-->
                 <div class="col-12 col-md3 col-lg-3 my-5">
-                    <div class="my-3">
-                        <h3>Lorem Ipsum</h3>
-                        <img src="img/portfolio/game.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="my-3">
-                        <h3>Lorem Ipsum</h3>
-                        <img src="img/portfolio/game.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="my-3">
-                        <h3>Lorem Ipsum</h3>
-                        <img src="img/portfolio/game.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="my-3">
-                        <h3>Lorem Ipsum</h3>
-                        <img src="img/portfolio/game.png" alt="" class="img-fluid">
-                    </div>
+                <?php
+                    get_sidebar();
+                ?>
                 </div>
             </div>
         </div>

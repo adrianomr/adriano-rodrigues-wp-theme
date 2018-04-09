@@ -3,44 +3,30 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Location</h4>
-                    <p class="lead mb-0">2215 John Daniel Drive
-                        <br>Clark, MO 65243</p>
+                    <h4 class="text-uppercase mb-4">Local</h4>
+                    <p class="lead mb-0">Rio Grande - RS
+                        <br>Brasil</p>
                 </div>
                 <div class="col-md-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <h4 class="text-uppercase mb-4">Redes Sociais</h4>
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/adriano.demellorodrigues">
                                 <i class="fa fa-fw fa-facebook"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                                <i class="fa fa-fw fa-google-plus"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                                <i class="fa fa-fw fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/adriano-de-mello-rodrigues-aa544a142/">
                                 <i class="fa fa-fw fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                                <i class="fa fa-fw fa-dribbble"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                    <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    <h4 class="text-uppercase mb-4">Sobre a página</h4>
+                    <p class="lead mb-0">Está página é um tema de wordpress desenvolvido a partir do tema "Freelance", um tema 
+                    <a class='a-secondary' href="http://startbootstrap.com">Bootstrap</a>. O código está diponível <a class='a-secondary' href="https://github.com/adrianomr/adriano-rodrigues-wp-theme">aqui</a>.
+                    </p>
                 </div>
             </div>
         </div>
@@ -48,7 +34,7 @@
 
     <div class="copyright py-4 text-center text-white">
         <div class="container">
-            <small>Copyright &copy; Your Website 2018</small>
+            <small>Copyright &copy; <a class='a-secondary' href="http://adrianorodrigues.com.br">Adriano Rodrigues</a> 2018</small>
         </div>
     </div>
 

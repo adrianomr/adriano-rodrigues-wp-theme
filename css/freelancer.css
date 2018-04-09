@@ -336,7 +336,7 @@ a {
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: #fff;
 }
 
 .btn {
@@ -370,8 +370,22 @@ a:focus, a:hover, a:active {
 }
 
 .btn-secondary {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #fff;
+  border-color: #fff;
+  color: #267593;
+}
+
+.a-secondary {
+  color: #fff;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.a-secondary:focus, .a-secondary:hover, .a-secondary:active {
+  color: #fff;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
