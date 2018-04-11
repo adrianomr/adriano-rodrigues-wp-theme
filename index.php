@@ -27,17 +27,11 @@
         ?>
         <div class="col-md-3 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-            <div class="portfolio-item-caption d-flex position-absolute mh-100 mw-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
                 <?php if ( has_post_thumbnail()){ 
                         the_post_thumbnail('post-thumbnails', array('class' => 'img-fluid', 'style'=>''));
                       }else{
                         echo '<img class="img-fluid" src="'.get_stylesheet_directory_uri().'/img/portfolio/cabin.png" alt="">';
                       } ?>
-                </a>
           </a>
           <div>
           
