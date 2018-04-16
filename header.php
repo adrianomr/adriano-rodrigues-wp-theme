@@ -11,6 +11,7 @@
     <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
     <?php wp_enqueue_script("jquery"); ?>
     <?php wp_head(); ?>
+    <?php //include get_stylesheet_directory_uri().'/mail/contact_me.php'; ?>
 
   </head>
 

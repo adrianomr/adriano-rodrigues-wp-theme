@@ -6,7 +6,7 @@
     <!-- Header -->
   <header class="masthead bg-primary text-white text-center">
     <div class="container">
-      <img class="rounded-circle border-light mx-auto w-25 h-25 " src="<?php echo get_stylesheet_directory_uri();?>/img/index.jpg" alt="">
+      <img class="rounded-circle col-lg-3 border-light mx-auto w-25 h-25 " src="<?php echo get_stylesheet_directory_uri();?>/img/index.jpg" alt="">
       <h1 class="text-uppercase mt-5 mb-0">Adriano de Mello Rodrigues</h1>
       <hr class="star-light">
       <h2 class="font-weight-light mb-0">Engenheiro de Computação - Técnico em Desenvolvimento de Software - Desenvolvedor de Software na SCADIAgro</h2>
@@ -121,7 +121,7 @@
               </div>
             </div>
             <br>
-            <div id="success"></div>
+            <div id="success">enviado</div>
             <div class="form-group">
               <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
             </div>
@@ -130,22 +130,6 @@
       </div>
     </div>
   </section>
-    <!-- Bootstrap core JavaScript
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript 
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Contact Form JavaScript 
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom scripts for this template
-    <script src="js/freelancer.min.js"></script>
-        -->
- 
   <?php get_footer(); ?>
 
 

@@ -336,7 +336,11 @@ a {
 }
 
 a:focus, a:hover, a:active {
-  color: #fff;
+  color: #267593;
+}
+card:focus, a:hover, a:active {
+  color: #267593;
+  text-decoration: none;
 }
 
 .btn {

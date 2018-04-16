@@ -7,10 +7,10 @@
                 <!--Post-->
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-                <div class="col-12 col-md-9 col-lg-9 my-5">
+                <div class="col-12 col-md-9">
                 <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
                 <?php if ( has_post_thumbnail()) : ?>
-                <?php the_post_thumbnail('post-thumbnails', array('class' => 'img-fluid')); ?>
+                <?php the_post_thumbnail('post-thumbnails', array('class' => 'img-fluid my-5')); ?>
                 </a>
                 <?php endif; ?>
                     <!--<img src="<?php echo get_stylesheet_directory_uri();?>/img/portfolio/game.png" alt="" class="img-fluid">-->
@@ -26,7 +26,7 @@
                 <?php endif; ?>
 
                 <!--Right Bar-->
-                <div class="col-12 col-md3 col-lg-3 my-5">
+                <div class="col-12 col-md-3 col-mx-auto my-5">
                 <?php
                     get_sidebar();
                 ?>
