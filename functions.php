@@ -21,6 +21,7 @@ if ( function_exists( 'add_theme_support' ) ) {
         ) );
     }
 
+
 //    function add_hyperlink($href, $text){
 //        echo '<u><a class = "text-white font-italic" href="'.$href.'">'.$text.'</u></a>';
 //    }

@@ -18,15 +18,20 @@
     <div class="container">
       <h2 class="text-center text-uppercase text-secondary mb-0">Posts</h2>
       <hr class="star-dark mb-5">
+     
       <div class="row">
+      
         <!-- inicio artigo -->
         <?php 
+          query_posts( 'posts_per_page=3' );
           if ( have_posts() ) {
-            while ( have_posts() ) {
+            //$count = 0;
+            while ( have_posts() ){//&& $count < 3) {
+              //$count++;
               the_post(); 
         ?>
-        <div class="col-md-3 col-lg-4">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+        <div class="col-md-4">
+          <a class="portfolio-item d-block mx-auto" href="<?php echo the_permalink();?>">
                 <?php if ( has_post_thumbnail()){ 
                         the_post_thumbnail('post-thumbnails', array('class' => 'img-fluid', 'style'=>''));
                       }else{
@@ -35,7 +40,7 @@
           </a>
           <div>
           
-            <a href="<?php echo the_permalink();?>"><?php echo the_title();?></a>
+          <a href="<?php echo the_permalink();?>"><center><h3><?php echo the_title();?></h3></center></a>
           </div>
         </div>
         <?php 
@@ -44,7 +49,16 @@
             echo '<h1 class="my-5">Em breve...</h1>';
         ?>
         <!-- Fim artigo -->
+        
       </div>
+      <!-- paginar
+      <div clas="col-md-1 align-middle ">
+        <a class="fa fa-5x fa-angle-left"></a>
+        </div>
+        <div clas="col-md-1 align-middle ">
+        <a class="fa fa-5x fa-angle-right"></a>
+        </div>
+        -->
     </div>
   </section>
 
