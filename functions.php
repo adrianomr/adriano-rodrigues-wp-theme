@@ -21,9 +21,13 @@ if ( function_exists( 'add_theme_support' ) ) {
         ) );
     }
 
-
-//    function add_hyperlink($href, $text){
-//        echo '<u><a class = "text-white font-italic" href="'.$href.'">'.$text.'</u></a>';
-//    }
- }
+    wp_enqueue_script( 'email', get_template_directory_uri() . '/js/contact_me.js', array ( 'jquery' ), 1.1, true);
+    wp_enqueue_script( 'jquery', get_template_directory_uri() . '/vendor/jquery/jquery.min.js', array ( '' ), 1.1, true);
+    $site_parameters = array(
+        'site_url' => get_site_url(),
+        'theme_directory' => get_template_directory_uri()
+        );
+    wp_localize_script( 'email', 'SiteParameters', $site_parameters );
+    
+ }  
 ?>

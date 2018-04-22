@@ -135,11 +135,12 @@
               </div>
             </div>
             <br>
-            <div id="success">enviado</div>
+            <div id="success"></div>
             <div class="form-group">
               <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
             </div>
           </form>
+          
         </div>
       </div>
     </div>
